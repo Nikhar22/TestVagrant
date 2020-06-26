@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Ui Automation Suite]" parallel="tests">
+  <test name="Featured Product page(failed)" parallel="tests">
+    <classes>
+      <class name="testcase.FeaturedProductTestCases">
+        <methods>
+          <include name="tearUp"/>
+          <include name="browserSetup"/>
+          <include name="oneTimeSetUp"/>
+          <include name="flushReport"/>
+          <include name="addAnItemFromFeaturedCollection" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.FeaturedProductTestCases -->
+      <class name="testcase.ProductTestCases">
+        <methods>
+          <include name="tearUp"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- testcase.ProductTestCases -->
+    </classes>
+  </test> <!-- Featured Product page(failed) -->
+  <test name="Product home page(failed)" parallel="tests">
+    <classes>
+      <class name="testcase.FeaturedProductTestCases">
+        <methods>
+          <include name="tearUp"/>
+          <include name="browserSetup"/>
+          <include name="oneTimeSetUp"/>
+          <include name="flushReport"/>
+        </methods>
+      </class> <!-- testcase.FeaturedProductTestCases -->
+      <class name="testcase.ProductTestCases">
+        <methods>
+          <include name="tearUp"/>
+          <include name="increaseProductQuantityAndCheckPrice" invocation-numbers="0"/>
+          <include name="searchandAddAProductOfdifferentSize" invocation-numbers="0"/>
+          <include name="browserSetup"/>
+          <include name="searchandAddAProduct" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcase.ProductTestCases -->
+    </classes>
+  </test> <!-- Product home page(failed) -->
+</suite> <!-- Failed suite [Ui Automation Suite] -->

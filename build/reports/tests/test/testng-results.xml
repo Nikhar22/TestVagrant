@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ui Automation Suite" duration-ms="46561" started-at="2020-06-26T15:02:39Z" finished-at="2020-06-26T15:03:25Z">
+    <groups>
+    </groups>
+    <test name="Featured Product page" duration-ms="23504" started-at="2020-06-26T15:02:39Z" finished-at="2020-06-26T15:03:02Z">
+      <class name="testcase.FeaturedProductTestCases">
+        <test-method status="PASS" signature="oneTimeSetUp()[pri:0, instance:testcase.FeaturedProductTestCases@46e62eb7]" name="oneTimeSetUp" is-config="true" duration-ms="303" started-at="2020-06-26T20:32:38Z" description="One time setup" finished-at="2020-06-26T20:32:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oneTimeSetUp -->
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:testcase.FeaturedProductTestCases@46e62eb7]" name="browserSetup" is-config="true" duration-ms="13629" started-at="2020-06-26T20:32:39Z" description="Setting up the browser and logging in" finished-at="2020-06-26T20:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="addAnItemFromFeaturedCollection(java.lang.String)[pri:1, instance:testcase.FeaturedProductTestCases@46e62eb7]" name="addAnItemFromFeaturedCollection" duration-ms="7377" started-at="2020-06-26T20:32:53Z" description="Select a product from Featured collection" data-provider="readExcelData" finished-at="2020-06-26T20:33:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RoundNeck Shirt 14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addAnItemFromFeaturedCollection -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testcase.FeaturedProductTestCases@46e62eb7]" name="tearUp" is-config="true" duration-ms="1715" started-at="2020-06-26T20:33:00Z" description="TearUp" finished-at="2020-06-26T20:33:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+        <test-method status="PASS" signature="flushReport()[pri:0, instance:testcase.FeaturedProductTestCases@46e62eb7]" name="flushReport" is-config="true" duration-ms="525" started-at="2020-06-26T20:33:25Z" finished-at="2020-06-26T20:33:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReport -->
+      </class> <!-- testcase.FeaturedProductTestCases -->
+    </test> <!-- Featured Product page -->
+    <test name="Product home page" duration-ms="46561" started-at="2020-06-26T15:02:39Z" finished-at="2020-06-26T15:03:25Z">
+      <class name="testcase.ProductTestCases">
+        <test-method status="PASS" signature="browserSetup()[pri:0, instance:testcase.ProductTestCases@5f6a75f6]" name="browserSetup" is-config="true" duration-ms="13630" started-at="2020-06-26T20:32:39Z" description="Setting up the browser and logging in" finished-at="2020-06-26T20:32:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method status="PASS" signature="searchandAddAProduct(java.lang.String, java.lang.String, java.lang.String)[pri:1, instance:testcase.ProductTestCases@5f6a75f6]" name="searchandAddAProduct" duration-ms="8236" started-at="2020-06-26T20:32:53Z" description="Search a prouct and add it to cart" data-provider="readExcelData" finished-at="2020-06-26T20:33:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Round Neck Shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S,M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandAddAProduct -->
+        <test-method status="PASS" signature="increaseProductQuantityAndCheckPrice(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:testcase.ProductTestCases@5f6a75f6]" name="increaseProductQuantityAndCheckPrice" duration-ms="11021" started-at="2020-06-26T20:33:01Z" description="Increase the quantity of product and verify the total price" data-provider="readExcelData" finished-at="2020-06-26T20:33:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Round Neck Shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S,M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- increaseProductQuantityAndCheckPrice -->
+        <test-method status="PASS" signature="searchandAddAProductOfdifferentSize(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:testcase.ProductTestCases@5f6a75f6]" name="searchandAddAProductOfdifferentSize" duration-ms="11739" started-at="2020-06-26T20:33:12Z" description="Search a prouct and add different size of the product to cart" data-provider="readExcelData" finished-at="2020-06-26T20:33:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Round Neck Shirt]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[S,M]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchandAddAProductOfdifferentSize -->
+        <test-method status="PASS" signature="tearUp()[pri:0, instance:testcase.ProductTestCases@5f6a75f6]" name="tearUp" is-config="true" duration-ms="1078" started-at="2020-06-26T20:33:24Z" description="TearUp" finished-at="2020-06-26T20:33:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearUp -->
+      </class> <!-- testcase.ProductTestCases -->
+    </test> <!-- Product home page -->
+  </suite> <!-- Ui Automation Suite -->
+</testng-results>

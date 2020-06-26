@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testcase.FeaturedProductTestCases" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-06-26T15:02:53" hostname="LAPTOP-1KHE5T04" time="7.377">
+  <properties/>
+  <testcase name="addAnItemFromFeaturedCollection[0](RoundNeck Shirt 14)" classname="testcase.FeaturedProductTestCases" time="7.377"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
